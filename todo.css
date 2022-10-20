@@ -1,0 +1,57 @@
+body{
+	background-image:url(../ASSETS/background.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+h1{
+	margin-top: 100px;
+	font-size: 50px;
+}
+.display{
+	display: flex;
+	justify-content: center;
+}
+label{
+	margin-bottom: 10px;
+}
+.field{
+        margin-left: 30px;
+	width: 300px;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #898989;
+	font-family: Times New Roman;
+}
+.add{
+	width: 20px;
+	padding: 3px 0px 3px 15px;
+	cursor: pointer;
+}
+.list{
+	margin-top: 20px;
+	border: 1px solid #898989;
+	border-radius: 5px;
+	width: 600px;
+	height: 285px;
+}
+.borderbottom{
+	border-bottom: 1px solid #898989;
+	height: 40px;
+	cursor: pointer;
+}
+.completed{
+	width: 25px;
+	margin: 7px 0px 0px 5px;
+	cursor: pointer;
+}
+.delete{
+	width: 25px;
+	height: 25px;
+	margin: 7px 5px 0px 0px; 
+}
+.align{
+	display: flex;
+	justify-content: space-between;
+}
+	
